@@ -16,7 +16,7 @@ const upload = multer({ dest: 'uploads/' });
 const s3Client = new S3Client({
   region: process.env.AWS_REGION,
   credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    accessKeyId: "AKIAXTORPV5CQLAP4QXR",
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
   }
 });
